@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+
+    node-js:
+        image: node:20-alpine
+        container_name: maluf_nodejs
+#       restart: always
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        entrypoint: /bin/ash # Override Entrypoint
