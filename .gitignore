@@ -1,2 +1,6 @@
 EXTRAS/
 node_modules/
+hardhatTeste/
+truffleTeste/
+web3Console/
+DIOVoting.sol
